@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Visual from '@/components/Visual';
+import Visual from '../../components/Visual';
 import { projectsData } from '@/data/dataFeatures';
 import { useRouter } from 'next/router';
 

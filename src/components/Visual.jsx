@@ -3,7 +3,7 @@ import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-import Navbar from '@/components/Navbar';
+import Navbar from './Navbar';
 
 export default function Visual({ title, techs, descriptions, image, codeLink, demoLink }) {
   const listTechs = techs?.map(tech => (

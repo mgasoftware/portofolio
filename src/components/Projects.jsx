@@ -1,8 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import ProjectItem from '@/components/ProjectItem';
-import hrnet from '../../public/assets/projects/hrnet.png'
+import ProjectItem from './ProjectItem';
 import { projectsData } from '@/data/dataFeatures';
 
 export default function Projects() {
