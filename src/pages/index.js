@@ -12,6 +12,7 @@ export default function Home() {
     <Head>
       <title>MGA Software | Full Stack developper</title>
     </Head>
+    <Navbar />
     <Main />
     <About />
     <Skills />

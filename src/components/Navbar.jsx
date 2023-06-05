@@ -26,7 +26,7 @@ export default function Navbar() {
     }, [])
 
     return (
-        <div className={shadow ? 'fixed w-full shadow-xl z-[100]' : 'fixed w-full shadow-xlz-[100]'}>
+        <div className={shadow ? 'fixed flex w-full shadow-xl z-[100]' : 'fixed flex w-full shadow-xlz-[100]'}>
             <div className='flex justify-between items-center w-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <Image src={logo} alt='logo' width='125' height='50' />
