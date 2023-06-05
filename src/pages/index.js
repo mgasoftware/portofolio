@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Main from '../components/Main'
 import About from '../components/About'
-import Skills from '../components/skills'
+import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
-import Projects from '../components/projects'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
