@@ -37,7 +37,7 @@ export default function Main() {
                                 <AiOutlineMail />
                             </div>
                         </Link>
-                        <Link href='../../assets/MACIRE_GASSAMA.pdf'>
+                        <Link href='/'>
                             <div
                                 className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'
                             >
