@@ -1,6 +1,26 @@
 export const projectsData = [
   {
     id: "1",
+    title: "Shop Pass",
+    descriptions: [
+"À propos de l'application",
+"Intégrer tous vos carte de fidélité avec code barre dans votre application en toute sécurité. Aucune données n'est collecté, aucune nécessité d'être connecté sur internet.",
+"APPLICATION SANS COLLECTE DE DONNEES",
+"Aucune inscription, aucune pub, aucune nécessité de se connecter.",
+"AJOUTEZ TOUTES VOS CARTES DE FIDÉLITÉ",
+"Vous pouvez ajouter les cartes de fidélité de tous vos magasins en toute simplicité.",
+"CARTE PERSONALISABLE",
+"Chaque carte que vous créez est personnalisable par son nom.",
+"SIMPLICITE D'UTILISATION",
+"Les cartes enregistrées sont toutes visibles dès la page d'accueil.",],
+    image: "/assets/projects/shoppass.png",
+    techs: ["React Native", "JavaScript", "HTML", "CSS", "Expo", "SQLite"],
+    codeLink: "https://play.google.com/store/apps/details?id=com.mgasoftware.shoppass",
+    demoLink: "https://play.google.com/store/apps/details?id=com.mgasoftware.shoppass",
+    framework: "React Native"
+  },
+  {
+    id: "2",
     title: "HRNET",
     descriptions: [
       "HRnet is an application for a company to manage human resources.",
@@ -15,7 +35,7 @@ export const projectsData = [
     framework: "React JS"
   },
   {
-    id: "2",
+    id: "3",
     title: "OhMyFood",
     descriptions: [
       "OhMyFood is the development of a 'mobile first' website that lists menus from gourmet restaurants. In addition to the traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready upon their arrival, eliminating waiting times at the restaurant.",
@@ -28,7 +48,7 @@ export const projectsData = [
     framework: "HTML CSS"
   },
   {
-    id: "3",
+    id: "4",
     title: "Kasa",
     descriptions: [
       "As part of an Openclassrooms project, I was asked to integrate the design of a figma model using React.js technology and react-router.",
@@ -40,7 +60,7 @@ export const projectsData = [
     framework: "React JS"
   },
   {
-    id: "4",
+    id: "5",
     title: "SportSee",
     descriptions: [
       "SportSee is a project I carried out as part of my Front-end Developer training at OpenClassrooms.",
