@@ -1,18 +1,44 @@
 export const projectsData = [
   {
     id: "1",
+    title: "MGA Market",
+    descriptions: [
+      "This project MGA Market use only Django framework is a market place who you can post an item, create account and chat whith seller.",
+      " I have two repo on this project one using postgreSQL for the database on render.com and the other who use SQL lite on local machine.",
+      " The demo must have some issue cause Render.com doesn't alow for free to persist the media image and their server doesn't work anytimes.",],
+    image: "/assets/projects/mga_market_django.png",
+    techs: ["Django", "Model", "HTML", "Tailwind", "Template","postgreSQL"],
+    codeLink: "https://github.com/mgasoftware/django-rest-mgamarket",
+    demoLink: "https://mgamarket-djangoapp.onrender.com/",
+    framework: "Django"
+  },
+  {
+    id: "2",
+    title: "MGA Market",
+    descriptions: [
+      "This project MGA Market use NextJS for the front and Django REST for the back, is a market place who you can see the items from the django mga market and sign in.",
+      " The demo must have some issue cause the back is store on Render.com and it doesn't alow for free to persist the media image and their server doesn't work anytimes.",
+      " ",],
+    image: "/assets/projects/mga_market_nextjs.png",
+    techs: ["NextJS", "Django REST", "HTML", "CSS",],
+    codeLink: "https://github.com/mgasoftware/nextjs-mgasoftware",
+    demoLink: "https://nextjs-mgasoftware.vercel.app/",
+    framework: "NextJS"
+  },
+  {
+    id: "3",
     title: "Shop Pass",
     descriptions: [
-"À propos de l'application",
-"Intégrer tous vos carte de fidélité avec code barre dans votre application en toute sécurité. Aucune données n'est collecté, aucune nécessité d'être connecté sur internet.",
-"APPLICATION SANS COLLECTE DE DONNEES",
-"Aucune inscription, aucune pub, aucune nécessité de se connecter.",
-"AJOUTEZ TOUTES VOS CARTES DE FIDÉLITÉ",
-"Vous pouvez ajouter les cartes de fidélité de tous vos magasins en toute simplicité.",
-"CARTE PERSONALISABLE",
-"Chaque carte que vous créez est personnalisable par son nom.",
-"SIMPLICITE D'UTILISATION",
-"Les cartes enregistrées sont toutes visibles dès la page d'accueil.",],
+      "À propos de l'application",
+      "Intégrer tous vos carte de fidélité avec code barre dans votre application en toute sécurité. Aucune données n'est collecté, aucune nécessité d'être connecté sur internet.",
+      "APPLICATION SANS COLLECTE DE DONNEES",
+      "Aucune inscription, aucune pub, aucune nécessité de se connecter.",
+      "AJOUTEZ TOUTES VOS CARTES DE FIDÉLITÉ",
+      "Vous pouvez ajouter les cartes de fidélité de tous vos magasins en toute simplicité.",
+      "CARTE PERSONALISABLE",
+      "Chaque carte que vous créez est personnalisable par son nom.",
+      "SIMPLICITE D'UTILISATION",
+      "Les cartes enregistrées sont toutes visibles dès la page d'accueil.",],
     image: "/assets/projects/shoppass.png",
     techs: ["React Native", "JavaScript", "HTML", "CSS", "Expo", "SQLite"],
     codeLink: "https://play.google.com/store/apps/details?id=com.mgasoftware.shoppass",
@@ -20,7 +46,7 @@ export const projectsData = [
     framework: "React Native"
   },
   {
-    id: "2",
+    id: "4",
     title: "HRNET",
     descriptions: [
       "HRnet is an application for a company to manage human resources.",
@@ -35,7 +61,32 @@ export const projectsData = [
     framework: "React JS"
   },
   {
-    id: "3",
+    id: "5",
+    title: "Kasa",
+    descriptions: [
+      "As part of an Openclassrooms project, I was asked to integrate the design of a figma model using React.js technology and react-router.",
+      " Kasa is an online apartment reservation site.",],
+    image: "/assets/projects/kasa.png",
+    techs: ["React", "React Router", "HTML", "CSS"],
+    codeLink: "https://github.com/mgasoftware/kasa/tree/main",
+    demoLink: "https://kasa-n6hv83uyg-mgasoftware.vercel.app/",
+    framework: "React JS"
+  },
+  {
+    id: "6",
+    title: "SportSee",
+    descriptions: [
+      "SportSee is a project I carried out as part of my Front-end Developer training at OpenClassrooms.",
+      " I integrated and developed an analytics dashboard for a sports web application using HTML, CSS, JavaScript, React, React Router, and the Recharts data visualization tool. I also used an API to retrieve the data needed to display the graphs.",
+      " The end result is a functional and aesthetically pleasing dashboard, enabling users to analyze their sports performance in detail.",],
+    image: "/assets/projects/sportsee.png",
+    techs: ["React", "Rechart", "HTML", "CSS"],
+    codeLink: "https://github.com/mgasoftware/sportsee",
+    demoLink: "https://sportsee-peach.vercel.app/",
+    framework: "React JS"
+  },
+  {
+    id: "7",
     title: "OhMyFood",
     descriptions: [
       "OhMyFood is the development of a 'mobile first' website that lists menus from gourmet restaurants. In addition to the traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready upon their arrival, eliminating waiting times at the restaurant.",
@@ -46,30 +97,5 @@ export const projectsData = [
     codeLink: "https://github.com/mgasoftware/ohMyFood/tree/main",
     demoLink: "https://mgasoftware.github.io/",
     framework: "HTML CSS"
-  },
-  {
-    id: "4",
-    title: "Kasa",
-    descriptions: [
-      "As part of an Openclassrooms project, I was asked to integrate the design of a figma model using React.js technology and react-router.",
-      " Kasa is an online apartment reservation site.",],
-    image: "/assets/projects/kasa.png",
-    techs: ["React","React Router","HTML", "CSS"],
-    codeLink: "https://github.com/mgasoftware/kasa/tree/main",
-    demoLink: "https://kasa-n6hv83uyg-mgasoftware.vercel.app/",
-    framework: "React JS"
-  },
-  {
-    id: "5",
-    title: "SportSee",
-    descriptions: [
-      "SportSee is a project I carried out as part of my Front-end Developer training at OpenClassrooms.",
-      " I integrated and developed an analytics dashboard for a sports web application using HTML, CSS, JavaScript, React, React Router, and the Recharts data visualization tool. I also used an API to retrieve the data needed to display the graphs.",
-    " The end result is a functional and aesthetically pleasing dashboard, enabling users to analyze their sports performance in detail.",],
-    image: "/assets/projects/sportsee.png",
-    techs: ["React","Rechart","HTML", "CSS"],
-    codeLink: "https://github.com/mgasoftware/sportsee",
-    demoLink: "https://sportsee-peach.vercel.app/",
-    framework: "React JS"
   },
 ]
