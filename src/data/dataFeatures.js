@@ -20,7 +20,7 @@ export const projectsData = [
       " The demo must have some issue cause the back is store on Render.com and it doesn't alow for free to persist the media image and their server doesn't work anytimes.",
       " ",],
     image: "/assets/projects/mga_market_nextjs.png",
-    techs: ["NextJS", "Django REST", "HTML", "CSS",],
+    techs: ["NextJS", "Django REST","Typescript", "HTML", "CSS",],
     codeLink: "https://github.com/mgasoftware/nextjs-mgasoftware",
     demoLink: "https://nextjs-mgasoftware.vercel.app/",
     framework: "NextJS"
