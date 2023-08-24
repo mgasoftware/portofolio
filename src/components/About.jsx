@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import computerImage from '../../public/assets/about.png'
+import Link from 'next/link'
 
 export default function About() {
     return (
@@ -18,7 +19,7 @@ export default function About() {
                         I would love to hear from you and help you realize your vision.
                         <br /><br />
                     </p>
-                    <p className='py-2 text-gray-700 underline cursor-pointer'>Check out some of my latest projects.</p>
+                    <Link href='/#projects'><p className='py-2 text-gray-700 underline cursor-pointer'>Check out some of my latest projects.</p></Link>
                 </div>
                 <div className='w-full h-auto m-auto flex items-center justify-center p-4 hover:scale-110 ease-in duration-300'>
                     <Image className='rounded-xl shadow-xl shadow-gray-400' src={computerImage} alt="computer" />
